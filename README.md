@@ -3,7 +3,7 @@
 ## Installation and Usage
 
 ```
-git clone https://github.com/Brian-M-J/rl_ad_mini_project.git
+git clone https://github.com/brnmj/rl_ad_mini_project.git
 ```
 
 ```
@@ -23,7 +23,7 @@ cd scripts
 ```
 
 ```
-..\.venv\Scripts\python.exe experiments.py evaluate .\configs\HighwayEnv\env.json .\configs\HighwayEnv\agents\DQNAgent\dqn.json --recover --test --episodes=5
+..\.venv\Scripts\python.exe experiments.py evaluate .\configs\HighwayEnv\env.json .\configs\HighwayEnv\agents\DQNAgent\dqn.json --recover --test --episodes=5 --verbose
 ```
 
 ```
@@ -31,5 +31,5 @@ cd scripts
 ```
 
 ```
-..\.venv\Scripts\python.exe experiments.py evaluate .\configs\IntersectionEnv\env.json .\configs\IntersectionEnv\agents\DQNAgent\ego_attention.json --recover --test --episodes=5
+..\.venv\Scripts\python.exe experiments.py evaluate .\configs\IntersectionEnv\env.json .\configs\IntersectionEnv\agents\DQNAgent\ego_attention.json --recover --test --episodes=5 --verbose
 ```
